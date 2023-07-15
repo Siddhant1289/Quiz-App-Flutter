@@ -1,6 +1,6 @@
 import 'package:adv_basics/models/quiz_questions.dart';
 
-List<QuizQuestion> questions = [
+var questions = [
   QuizQuestion(
     'What are the main building blocks of Flutter UIs?',
     [

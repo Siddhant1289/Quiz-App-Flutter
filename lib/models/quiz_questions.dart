@@ -1,3 +1,5 @@
+import 'package:adv_basics/answer_button.dart';
+
 class QuizQuestion {
   QuizQuestion(this.text, this.answers);
 
@@ -8,4 +10,6 @@ class QuizQuestion {
     shuffledList.shuffle();
     return shuffledList;
   }
+
+  map(AnswerButton Function(dynamic answer) param0) {}
 }
